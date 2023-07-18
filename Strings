@@ -1,0 +1,120 @@
+'''''
+#Notes:
+
+#Python strings:
+#they are text surronded by double/single quotes 
+x="hello, how are you? What are are your plans for today?"
+print(x)
+
+#get the type:
+print(type(x))
+
+#length of string:
+print(len(x))
+
+#Access the string:
+y="hello"
+print(y[2])
+
+#Looping throught a string:
+for x in "apple":
+    print(x)
+    
+#Checking a string:
+text="Cheeseburger are mid"
+print("Cheeseburger" in text)
+
+#Pratice 
+
+a="Covid"
+print(len(a))
+
+x="definitely"
+print(x[7])
+
+text="Ethan is sus"
+print("Ethan" in text)
+
+#More Notes
+
+#Slicing strings:
+#postive indexing
+b="watermelon"
+print(b[0:5])
+
+c="programming"
+print(c[3:7])
+
+#negative indexing
+x="amna"
+-4 -3 -2 -1
+print(x[-2:-1])
+
+#More Pratice
+
+m="amusement"
+print(m[5:8])
+
+m="amusement"
+-9 -8 -7 -6 -5 -4 -3 -2 -1
+print(m[-4:-1])
+
+p="Pneumonoultramicroscopicsilicovolcanoconiosis"
+print(p[8:13])
+
+#Even More Notes
+
+#Modify strings:
+
+#upper()method: 
+h="hello"
+print(h.upper())
+
+#lower()method:
+l="hello"
+print(l.lower())
+
+#capitalize()method:
+c="hello"
+print(c.capitalize())
+
+#strip()method:removes whitespaces from beginning and end 
+text="    today is tuesday    "
+print(text.strip())
+
+#replace()method:
+r="hello"
+print(r.replace("h","c"))
+
+#split()method:
+s="Pizza is overrated"
+r=s.split(" ")
+print(r)
+
+#Even More Practice
+u="cheese"
+print(u.upper())
+
+u="cheese"
+print(u.lower())
+
+u="cheese"
+print(u.capitalize())
+
+text="   I want cheese    "
+print(text.strip())
+
+c="cheesa"
+print(c.replace("a","e"))
+
+f="Even more cheese"
+c=f.split(" , ")
+print(c)
+
+#Even Even More Notes
+#String Concatenation:
+f="hi"
+c="chese"
+print(f,c)
+print(f+" "+c)
+'''''
